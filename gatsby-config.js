@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Marie Carrere',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -16,8 +16,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Marie Carrere',
+        short_name: 'Marie Carrere',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
