@@ -3,9 +3,13 @@ import Layout from '../components/layout'
 
 const NotFoundPage = () => (
   <Layout>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <section className="section is-size-5-desktop is-size-6-touch">
+      <div className="container">
+        <h1 className="title has-text-centered">NOT FOUND</h1>
+        <p className="content has-text-centered">You just hit a route that doesn&#39;t exist... the sadness.</p>
+      </div>
+    </section>
   </Layout>
-)
+);
 
 export default NotFoundPage
