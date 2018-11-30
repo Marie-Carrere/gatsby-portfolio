@@ -6,8 +6,7 @@ import profileImage from '../assets/profile.jpeg'
 
 const socialMedias = [
   { icon: 'fa-github-square', link: 'https://github.com/Marie-Carrere' },
-  { icon: 'fa-linkedin', link: 'https://www.linkedin.com/in/marie-carrere' },
-  { icon: ' fas fa-external-link-square-alt', link: 'https://www.codewars.com/users/Marie_cm' },
+  { icon: 'fa-linkedin', link: 'https://www.linkedin.com/in/marie-carrere' }
 ];
 
 const IndexPage = () => (
@@ -45,7 +44,7 @@ const IndexPage = () => (
           JavaScript | React | Node
         </p>
         <p>
-          See more <Link to="/page-2">Projects</Link>
+          See more <Link to="/projects">Projects</Link>
         </p>
       </div>
     </section>
